@@ -3,23 +3,28 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:layout_alignParentTop="true">
-
-        <android.support.design.widget.AppBarLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <android.support.v7.widget.Toolbar
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/tabs"
+        android:layout_alignParentTop="true"
                 android:background="@drawable/white_grey_bottom_bar">
 
-            </android.support.v7.widget.Toolbar>
-        </android.support.design.widget.AppBarLayout>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20px"
+            android:background="@drawable/ic_right_menu_fragment"
+            android:id="@+id/rightNavigationMenuImageButton"/>
+
+        <ImageButton
+            android:id="@+id/addGoalImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20px"
+            android:background="@drawable/ic_add_goal_fragment"/>
+
+</RelativeLayout>
 
 
-    </RelativeLayout>
-
-
-</merge>
+    </merge>
