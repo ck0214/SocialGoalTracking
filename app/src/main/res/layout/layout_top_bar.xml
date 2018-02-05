@@ -22,7 +22,8 @@
             android:layout_centerVertical="true"
             android:layout_alignParentRight="true"
             android:layout_marginRight="20px"
-            android:background="@drawable/ic_add_goal_fragment"/>
+            android:background="@drawable/ic_add_goal_fragment"
+            android:onClick="addValue"/>
 
 </RelativeLayout>
 

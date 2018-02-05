@@ -37,12 +37,12 @@
             android:layout_height="wrap_content"
             android:id="@+id/middleLayout">
 
-            <include layout="@layout/layout_center_bar"></include>
+
+          <include layout="@layout/layout_center_bar"></include>
         </RelativeLayout>
 
 
         <include layout="@layout/layout_bottom_navigation_view"></include>
-
     </RelativeLayout>
 
 

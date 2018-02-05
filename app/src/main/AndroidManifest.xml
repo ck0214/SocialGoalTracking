@@ -19,6 +19,7 @@
         <activity android:name=".Friends.FriendsActivity"/>
         <activity android:name=".Setting.SettingActivity"/>
         <activity android:name=".Home.CategoryActivity"/>
+        <activity android:name=".Home.GoalActivity"/>
     </application>
 
 </manifest>

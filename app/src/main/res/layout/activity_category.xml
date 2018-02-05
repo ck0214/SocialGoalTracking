@@ -6,13 +6,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <RelativeLayout
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/layout_top_add_goal_bar"></include>
+    </RelativeLayout>
+
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/cateEditText"
         android:layout_width="246dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="76dp"
         android:ems="10"
         android:hint="Category Name"
         android:inputType="textPersonName"
@@ -20,7 +28,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foreground="@drawable/ic_launcher_foreground">
+
+
+    </FrameLayout>
+    <ImageView
         android:id="@+id/imageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -31,7 +46,7 @@
         app:layout_constraintHorizontal_bias="0.525"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:srcCompat="@mipmap/ic_launcher_round" />
+        app:srcCompat="@drawable/ic_action_name" />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -97,11 +112,11 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="161dp"
-        android:layout_height="24dp"
+        android:layout_width="141dp"
+        android:layout_height="22dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:text="Choose categories below"
+        android:text="Choose an icon below"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
@@ -114,19 +129,19 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="20dp"
-        android:text="or"
+        android:text="and"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+
 
     <TextView
         android:id="@+id/nextButtonTextView"
         android:layout_width="63dp"
         android:layout_height="26dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginEnd="6dp"
-        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="Next  >"
         android:textColor="@color/blue"

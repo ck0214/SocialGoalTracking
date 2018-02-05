@@ -29,4 +29,6 @@ dependencies {
     compile 'com.android.support:design:26.1.0'
 
     compile 'com.github.ittianyu:BottomNavigationViewEx:1.1.9'
+
+    compile 'com.github.sillebille:dynamic-calendar:1.0.1'
 }
